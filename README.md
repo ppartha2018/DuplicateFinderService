@@ -5,9 +5,13 @@ I have created the API as per the requirements.
 To run:
 
 git clone https://github.com/ppartha2018/DuplicateFinderService.git
+
 cd DuplicateFinderService
+
 mvn install -DskipTests
+
 java -jar target/DuplicateFinder-0.0.1-SNAPSHOT.jar
+
 mvn test
 
 Application available on: http://localhost:8080/DuplicateFinderService
