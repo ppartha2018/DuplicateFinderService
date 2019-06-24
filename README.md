@@ -17,9 +17,6 @@ mvn test
 Application available on: http://localhost:8080/DuplicateFinderService
 
 Note:
-1. "skipTest" while mvn install since I have written all the unit test as part of web integration tests, I realize that it could included
-in the regular build pipline by using @RestClient Integration test plugin with Spring Boot. For now, please invoke tests separately after starting
-the application.
+1. "skipTests" while mvn install since I have written all the unit test as part of web integration tests, I realize that it could be included in the regular build pipline by using @RestClient Integration test plugin with Spring Boot. For now, please invoke tests separately after startingthe application.
 
-2. Docker Containerization is work in progress. Issues with working with docker on Windows 10 Home. But maven plugin and docker file are created
-properly and can be used containerize from a different machine.
+2. Docker Containerization is a work in progress. I ran into issues with working with docker on my Windows 10 Home machine. But maven plugin and docker file are created properly and can be used with few changes in future.
