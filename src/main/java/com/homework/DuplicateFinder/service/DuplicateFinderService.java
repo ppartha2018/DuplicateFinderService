@@ -43,6 +43,7 @@ public class DuplicateFinderService {
 			 * Space Complexity - O(n), due to hashing.
 			 * the first filter is to avoid cases like productId not present (or corrupted fieldName) or empty (or corrupted) skuIds in the request data.
 			 * Assumption: Structure ID cannot be null or empty for a product. 
+			 * Other approaches considered are discussed below this method.
 			 */
 			List<Product> duplicateList = productList
 										  .stream()
